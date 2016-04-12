@@ -1,0 +1,18 @@
+{
+  "name": "canvo",
+  "version": "0.0.1",
+  "description": "a simple canvas app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart":"npm install",
+    "postinstall":"bower install",
+    "start":"node index.js"
+  },
+  "author": "Satya J",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.4",
+    "http-server": "^0.9.0"
+  }
+}
